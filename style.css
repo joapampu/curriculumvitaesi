@@ -8,7 +8,7 @@
         justify-content: center;
     }
     li {
-        margin: 15px;
+        margin: 5px;
         padding: 15px;
         text-align: center;
         width: 120px;
@@ -18,14 +18,14 @@
         color: white;
     }
     li a:hover {
-        color: yellow;
+        color: rgb(255, 255, 255);
     }
     h1 {
         text-align: center;
     }
     .contenedorpagina {
         justify-content: center;
-        display: flex; /* Agregado */
+        display: flex;
     }
     .contenedortextoimagen {
         justify-content: center;
@@ -47,7 +47,7 @@
     }
     footer {
         background: #000000;
-        height: 118px;
+        height: 80px;
         width: 100%;
         bottom: 0px;
         position: absolute;
@@ -57,8 +57,8 @@
         box-sizing: border-box;
     }
     .foto {
-        width: 272px;
-        height: 260px;
+        width: 172px;
+        height: 150px;
         border-radius: 115.5px;
     }
     .subtitulos {
@@ -92,7 +92,7 @@
     }
     #titulo {
         font-size: xx-large;
-        padding: 30px;
+        padding: 0px;
         color: #ffffff;
         width: 400px;
     }
@@ -109,7 +109,7 @@
     header nav {
         display: flex;
         list-style: none;
-        padding: 20px;
+        
         margin: 0 auto;
     }
     header a {
@@ -120,23 +120,21 @@
         height: 10vh;
     }
 }
-
 @media (max-width: 768px) {
-    /* margin auto */ /* Comentario eliminado */
     nav {
         background-color: #000000;
     }
     ul {
         list-style-type: none;
-        display: flex;
+        display: contents;
         justify-content: center;
     }
     li {
         background: #000000;
-        margin: -17px;
-        padding: 15px;
+        margin: 0 auto;
+        padding: 0px;
         text-align: center;
-        width: 120px;
+        width: 90px;
     }
     li a {
         text-decoration: none;
@@ -150,7 +148,9 @@
     }
     .contenedorpagina {
         justify-content: center;
-        display: flex; /* Agregado */
+        display: flex;
+        padding-bottom: 350px;
+        display:math;
     }
     .contenedortextoimagen {
         justify-content: center;
@@ -173,12 +173,12 @@
     footer {
         background: #000000;
         height: 118px;
-        width: 100%;
-        bottom: 0px;
+        
+        bottom: -110px;
         position: absolute;
         color: white;
         text-align: center;
-        padding: 30px;
+        padding: 50px;
         box-sizing: border-box;
     }
     .foto {
@@ -193,7 +193,7 @@
     }
     p {
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        color: rgb(216, 216, 216);
+        color: rgb(255, 255, 255);
     }
     body {
         background-color: #000000;
@@ -209,6 +209,7 @@
     header {
         display: flex;
         margin: 0 auto;
+        
     }
     img {
         padding: 10px;
@@ -217,16 +218,17 @@
     }
     #titulo {
         font-size: xx-large;
-        padding: 40px;
+        padding: 0px;
         color: #ffffff;
-        width: 400px;
-        margin: auto;
+        width: 250px;
+        margin: 81px;
     }
     #subtitulo {
         font-size: x-large;
-        padding: 10px;
+        padding: 0px;
         color: rgb(255, 255, 255);
         width: 200px;
+        margin: auto;
     }
     .claseletras {
         font-family: Arial;
@@ -239,4 +241,4 @@ canvas {
     left: 0;
     width: 100%;
     height: 100%;
-  }
+}

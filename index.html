@@ -19,11 +19,9 @@
             border-color: rgb(221, 0, 0) solid 2px;
             color: rgb(255, 0, 0);
         }
-
         canvas {
             border: 1px solid black;
         }
-
         button {
             padding: 10px 20px;
             font-size: 16px;
@@ -37,17 +35,19 @@
         <header>
             <div class="nav-bg">
                 <nav class="navegacion-principal contenedor">
-                    <a href="index.html"></a>
-                    <a href="https://matiasgabrielnavarro.github.io/Proyecto/"><li class="claseletras">Proyecto</li></a>
-                    <a href="Información.html"><li class="claseletras">Información</li></a>               
-                    <a href="Contacto.html"><li class="claseletras">Contacto</li></a>
+                    <ul>
+                        <li class="claseletras"><a href="index.html">Inicio</a></li>
+                        <li class="claseletras"><a href="https://matiasgabrielnavarro.github.io/Proyecto/">Proyecto</a></li>
+                        <li class="claseletras"><a href="Información.html">Información</a></li>               
+                        <li class="claseletras"><a href="Contacto.html">Contacto</a></li>
+                    </ul>
+                    <button onclick="cambiarColor()">Cambiar Color</button>
                 </nav>
-                <h1></h1>
             </div>
         </header>
     </div>
     <h1 id="titulo">Curriculum Vitae</h1>
-    <br>
+    
     <h1 id="subtitulo">Joaquin Pampuri</h1>
     <main>
         <div class="contenedorpagina">
@@ -58,7 +58,6 @@
             </div>
         </div>
     </main>
-    
     <footer>
         <div class="footer">
             <div class="footer-text">
@@ -66,9 +65,6 @@
             </div>
         </div>
     </footer>
-
-    
     <script src="index.js"></script>
-    <button onclick="cambiarColor()">Cambiar Color</button>
 </body>
 </html>
