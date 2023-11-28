@@ -116,8 +116,7 @@
         text-decoration: none;
         display: flex;
         justify-content: center;
-        align-items: center;
-        height: 10vh;
+        align-items: center;       
     }
 }
 @media (max-width: 768px) {
